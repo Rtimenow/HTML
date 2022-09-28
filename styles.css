@@ -28,6 +28,7 @@ body
  <hr>
 
 a:hover { color:tomato;} 
+
 h1 { text-transform: uppercase; 
   text-align: center;
   background-color: DodgerBlue;
@@ -46,7 +47,9 @@ h1 { text-transform: uppercase;
     display: block;
     max-width: 100%
 }
-
+.mainheader {
+  color: rgb(112, 119, 51);
+}
 
 img{
 
