@@ -70,6 +70,21 @@
     <br> Quos culpa minus quaerat fugit perferendis totam nobis quidem? 
     <br>Dolorem voluptates consectetur explicabo obcaecati perferendis.,
     <br> Sed enim totam veritatis at! Libero, voluptatem.       
+    <?php 
+$skills = ["HTML", "CSS", "JavaScript", "PHP", "React"];
+$names = ["kevin", "Robert"];
+
+
+function newList($arr) {
+    echo "<ul>";
+    foreach ($arr as $value) {
+    echo "<li>" . $value . "</li>";
+    }
+    echo "</ul>";
+}
+newList($skills);
+?>
+
    </p>
 </div>
     <img
@@ -92,7 +107,11 @@
             <td>Harrison Ford</td> 
             <td>Indiana Jones </td>  <td>1981</td>          
             </tr>
-              
+            
+
+ 
+ 
+
         </table>
 
     
